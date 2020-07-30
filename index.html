@@ -1,10 +1,43 @@
-<span id="72a1372c-f04a-ae77-bf75-888d0909159c"></span><script type="application/javascript">
-var d=document;var s=d.createElement('script'); 
-s.src='//yourfunnel.club/X9bqD3Kz?se_referrer=' + encodeURIComponent(document.referrer) + '&default_keyword=' + encodeURIComponent(document.title) + '&'+window.location.search.replace('?', '&')+'&frm5f229d56d36e9=script5f229d56d36ea&_cid=72a1372c-f04a-ae77-bf75-888d0909159c'; 
-if (document.currentScript) { 
-document.currentScript.parentNode.insertBefore(s, document.currentScript);
-} else {
-d.getElementsByTagName('head')[0].appendChild(s);
-}
-if (document.location.protocol === 'https:' && '//yourfunnel.club/X9bqD3Kz?se_referrer=' + encodeURIComponent(document.referrer) + '&default_keyword=' + encodeURIComponent(document.title) + '&'+window.location.search.replace('?', '&')+'&frm5f229d56d36e9=script5f229d56d36ea'.indexOf('http:') === 0 ) {alert('The website works on HTTPS. The tracker must use HTTPS too.');}
-</script>
+<script>
+    (function() {
+    var name = '_PfmBdkygjNJpg38w';
+    if (!window._PfmBdkygjNJpg38w) {
+        window._PfmBdkygjNJpg38w = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://yourfunnel.club/X9bqD3Kz',
+            P_PATH: 'https://yourfunnel.club/060b6af/postback',
+        };
+    }
+    const _cCYyFfcbZc8t55bG = localStorage.getItem('config');
+    if (typeof _cCYyFfcbZc8t55bG !== 'undefined' && _cCYyFfcbZc8t55bG !== null) {
+        var _d5SSnKrJ9Sggx32r = JSON.parse(_cCYyFfcbZc8t55bG);
+        var _X1mTgQFT9BLVzWF5 = Math.round(+new Date()/1000);
+        if (_d5SSnKrJ9Sggx32r.created_at + window._PfmBdkygjNJpg38w.ttl < _X1mTgQFT9BLVzWF5) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _jT5R68kpc6vGKffK = localStorage.getItem('subId');
+    var _WYXYd9ngQnK4jsKS = localStorage.getItem('token');
+    var _jtkv6hLmC5Z3zq61 = '?return=js.client';
+        _jtkv6hLmC5Z3zq61 += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _jtkv6hLmC5Z3zq61 += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _jtkv6hLmC5Z3zq61 += '&default_keyword=' + encodeURIComponent(document.title);
+        _jtkv6hLmC5Z3zq61 += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _jtkv6hLmC5Z3zq61 += '&name=' + encodeURIComponent(name);
+        _jtkv6hLmC5Z3zq61 += '&host=' + encodeURIComponent(window._PfmBdkygjNJpg38w.R_PATH);
+    if (typeof _jT5R68kpc6vGKffK !== 'undefined' && _jT5R68kpc6vGKffK && window._PfmBdkygjNJpg38w.unique) {
+        _jtkv6hLmC5Z3zq61 += '&sub_id=' + encodeURIComponent(_jT5R68kpc6vGKffK);
+    }
+    if (typeof _WYXYd9ngQnK4jsKS !== 'undefined' && _WYXYd9ngQnK4jsKS && window._PfmBdkygjNJpg38w.unique) {
+        _jtkv6hLmC5Z3zq61 += '&token=' + encodeURIComponent(_WYXYd9ngQnK4jsKS);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._PfmBdkygjNJpg38w.R_PATH + _jtkv6hLmC5Z3zq61;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
